@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ble1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="@string/ble1" />
+
+            <TextView
+                android:id="@+id/condition"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:gravity="center"
+                android:padding="15dp"
+                android:text="@string/abnormal"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/ble1_offset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="@string/ble1_offset" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_chart1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/startButton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="@string/StartRecord" />
+            <Button
+                android:id="@+id/LiftUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="@string/LiftUp" />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/PS"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/PD"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/saveConstButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/SaveConsData" />
+        <Button
+            android:id="@+id/LowP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/LowPressure" />
+        <TextView
+            android:id="@+id/PS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/PS"/>
+        <TextView
+            android:id="@+id/PD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/PD"/>
+        <TextView
+            android:id="@+id/PM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/PM"/>
+
+        <Button
+            android:id="@+id/startMears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/startMears"
+            android:padding="10dp"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/MarkTimeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:text="@string/firstmark" />
+            <Button
+                android:id="@+id/BackTimeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:text="@string/resetmark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+        <Button
+            android:id="@+id/stopButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="@string/StopRecord" />
+
+        <Button
+            android:id="@+id/saveButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="@string/SaveData" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

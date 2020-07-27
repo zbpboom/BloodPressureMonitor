@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BldPresMonitor</string>
+    <string name="open_setting">Setting</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="ble_location_not_open">不检查</string>
+    <string name="ble_location_not">不检查</string>
+    <string name="ble1">BLE_1</string>
+    <string name="ble2">BLE_2</string>
+    <string name="ble4">BLE_4</string>
+    <string name="ble3">BLE_3</string>
+    <string name="StartRecord">开始记录</string>
+    <string name="StopRecord">停止记录</string>
+    <string name="SaveData">保存数据</string>
+    <string name="preSaveData">请保存数据</string>
+    <string name="device_needed">选择需要连接的传感器设备</string>
+    <string name="start_connect">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020开始连接\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="homepage">主页图片</string>
+    <string name="start_scan">\u0020\u0020\u0020\u0020开始扫描\u0020\u0020\u0020\u0020</string>
+    <string name="stop_scan">\u0020\u0020\u0020\u0020停止扫描\u0020\u0020\u0020\u0020</string>
+    <string name="finish_select">完成选择设备</string>
+    <string name="ble1_offset">S1_DC:\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="SaveConsData">输入血压数据</string>
+    <string name="PS">收缩压</string>
+    <string name="PD">舒张压</string>
+    <string name="PM">平均压</string>
+    <string name="startMears">开始测量</string>
+    <string name="abnormal">请佩戴正确</string>
+    <string name="PersonalPara">腕部升降</string>
+    <string name="LowPressure">参数校正</string>
+    <string name="LiftUp">改变高度</string>
+    <string name="firstmark">第一次</string>
+    <string name="secondmark">第二次</string>
+    <string name="thirdmark">第三次</string>
+    <string name="forthmark">第四次</string>
+    <string name="fifthmark">第五次</string>
+    <string name="sixthmark">第六次</string>
+    <string name="resetmark">撤销</string>
+</resources>
